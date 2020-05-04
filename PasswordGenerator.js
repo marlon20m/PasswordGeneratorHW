@@ -60,6 +60,6 @@ if (confirm('Would you like to use lowercase letters?'));
         var password = '';
         for (i = 0; i < lengthpass; i++)
 
-
-
+        var c = Math.floor(Math.random() * lowercharacters.length + 0);
+        password += lowercharacters.charAt(c);
 
