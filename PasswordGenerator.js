@@ -21,7 +21,6 @@ var lengthpass = prompt(
   'Choose a length from 8 to 128 characters for your password'
 );
 
-
 lengthpass = parseInt(lengthpass);
 
 var allcharacters =
@@ -29,3 +28,12 @@ var allcharacters =
 var uppercharacters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var lowercharacters = 'abcdefghijklmnopqrstuvwxyz';
 
+function generate() {
+  var password = '';
+  for (i = 0; i < lengthpass; i++) {
+    var c = Math.floor(Math.random() * characters.length + 0);
+    password += characters.charAt(c);
+  }
+  console.log(password);
+  document.getElementById('pass').innerHTML = password += characters.charAt(c);
+}
