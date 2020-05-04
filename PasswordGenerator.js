@@ -100,3 +100,9 @@ if (confirm('Would you like to use numbers?'));
       password += numberpass.charAt(c);
     }
 
+    console.log(password[i]);
+    document.getElementById('pass').innerHTML = password += numberpass.charAt(
+      c
+    );
+  }
+}
