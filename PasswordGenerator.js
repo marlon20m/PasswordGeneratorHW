@@ -89,7 +89,9 @@ if (confirm('Would you like to use lowercase letters?'));
 }
 }
 
-
 var numberpass = '1234567890';
 if (confirm('Would you like to use numbers?'));
+{
+  function generate() {
+    var password = '';
 
