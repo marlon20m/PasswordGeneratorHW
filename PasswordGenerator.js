@@ -95,3 +95,8 @@ if (confirm('Would you like to use numbers?'));
   function generate() {
     var password = '';
 
+    for (i = 0; i < lengthpass; i++) {
+      var c = Math.floor(Math.random() * numberpass.length + 0);
+      password += numberpass.charAt(c);
+    }
+
