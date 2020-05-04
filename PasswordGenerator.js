@@ -24,3 +24,8 @@ var lengthpass = prompt(
 
 lengthpass = parseInt(lengthpass);
 
+var allcharacters =
+  '0123456789!@#$%^&*()_-+=[];:.?/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+var uppercharacters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var lowercharacters = 'abcdefghijklmnopqrstuvwxyz';
+
