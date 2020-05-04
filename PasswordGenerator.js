@@ -35,7 +35,7 @@ function generate() {
     password += characters.charAt(c);
   }
   console.log(password);
-  document.getElementById('pass').innerHTML = password += characters.charAt(c);
+  document.getElementById("pass").innerHTML = password += characters.charAt(c);
 }
 
 if (confirm('Would you like to use uppercase letters?'));
@@ -48,7 +48,7 @@ if (confirm('Would you like to use uppercase letters?'));
     }
     console.log(password[i]);
     document.getElementById(
-      'pass'
+      "pass"
     ).innerHTML = password += uppercharacters.charAt(c);
   }
 }
@@ -64,7 +64,7 @@ if (confirm('Would you like to use lowercase letters?'));
       }
       console.log(password[i]);
       document.getElementById(
-        'pass'
+        "pass"
       ).innerHTML = password += lowercharacters.charAt(c);
     }
   }
@@ -83,7 +83,7 @@ if (confirm('Would you like to use lowercase letters?'));
 
   }
   console.log(password[i]);
-  document.getElementById('pass').innerHTML = password += symbolpass.charAt(
+  document.getElementById("pass").innerHTML = password += symbolpass.charAt(
     c
   );
 }
@@ -101,7 +101,7 @@ if (confirm('Would you like to use numbers?'));
     }
 
     console.log(password[i]);
-    document.getElementById('pass').innerHTML = password += numberpass.charAt(
+    document.getElementById("pass").innerHTML = password += numberpass.charAt(
       c
     );
   }
