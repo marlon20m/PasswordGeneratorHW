@@ -80,6 +80,14 @@ if (confirm('Would you like to use lowercase letters?'));
     {
       var c = Math.floor(Math.random() * symbolpass.length + 0);
       password += symbolpass.charAt(c);
-    }
+
+  }
+  console.log(password[i]);
+  document.getElementById('pass').innerHTML = password += symbolpass.charAt(
+    c
+  );
+}
+}
+
 
 
