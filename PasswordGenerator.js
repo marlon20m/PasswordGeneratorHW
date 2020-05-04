@@ -38,7 +38,6 @@ function generate() {
   document.getElementById('pass').innerHTML = password += characters.charAt(c);
 }
 
-
 if (confirm('Would you like to use uppercase letters?'));
 {
   function generate() {
@@ -62,4 +61,13 @@ if (confirm('Would you like to use lowercase letters?'));
 
         var c = Math.floor(Math.random() * lowercharacters.length + 0);
         password += lowercharacters.charAt(c);
+      }
+      console.log(password[i]);
+      document.getElementById(
+        'pass'
+      ).innerHTML = password += lowercharacters.charAt(c);
+    }
+  }
+
+
 
