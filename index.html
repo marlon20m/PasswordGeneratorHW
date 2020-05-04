@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Javascript Password Generator</title>
+    <title>Javascript Template</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -26,27 +26,30 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
-  <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand text-center" href="#">Password Generator</a>
-  </nav>
-  <div class="container">
-    <div class="row">
-      <div class=".col-lg-8 col-sm-12">
-        <div class="content">
-          <h1>Password Generator</h1>
-          <br />
-          <input type="text" id="display"/>
-          <div id="pass"></div>
-          <br />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand text-center" href="#">Password Generator</a>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class=".col-lg-8 col-sm-12">
+          <div class="content">
+            <h1>Password Generator</h1>
+            <br />
+            <input type="text" id="display"/>
+            <div id="pass"></div>
+            <br />
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    <script type="text/javascript"></script>
 
-  <script type="text/javascript"></script>
-  <button onclick="generate()">Generate Password</button>
+    <button onclick="generate()">Generate Password</button>
+    
 
-</body>
+    <script src="PasswordGenerator.js"></script>
+  </body>
 </html>
