@@ -38,6 +38,7 @@ function generate() {
   document.getElementById('pass').innerHTML = password += characters.charAt(c);
 }
 
+
 if (confirm('Would you like to use uppercase letters?'));
 {
   function generate() {
@@ -52,10 +53,13 @@ if (confirm('Would you like to use uppercase letters?'));
     ).innerHTML = password += uppercharacters.charAt(c);
   }
 }
+
 if (confirm('Would you like to use lowercase letters?'));
 {
     function generate() {
         var password = '';
         for (i = 0; i < lengthpass; i++)
+
         var c = Math.floor(Math.random() * lowercharacters.length + 0);
         password += lowercharacters.charAt(c);
+
