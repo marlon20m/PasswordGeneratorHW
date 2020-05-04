@@ -20,3 +20,7 @@ if (
 var lengthpass = prompt(
   'Choose a length from 8 to 128 characters for your password'
 );
+
+
+lengthpass = parseInt(lengthpass);
+
