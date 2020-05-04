@@ -77,4 +77,9 @@ if (confirm('Would you like to use lowercase letters?'));
     var password = '';
 
     for (i = 0; i < lengthpass; i++)
+    {
+      var c = Math.floor(Math.random() * symbolpass.length + 0);
+      password += symbolpass.charAt(c);
+    }
+
 
