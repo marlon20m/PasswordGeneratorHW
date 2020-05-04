@@ -69,5 +69,5 @@ if (confirm('Would you like to use lowercase letters?'));
     }
   }
 
-
+  var symbolpass = '!@#$%^&*()';
 
