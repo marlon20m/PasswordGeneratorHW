@@ -73,4 +73,5 @@ if (confirm('Would you like to use lowercase letters?'));
 
   if (confirm('Would you like to use symbols?'));
 {
-
+  function generate() {
+    var password = '';
