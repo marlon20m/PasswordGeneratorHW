@@ -52,11 +52,13 @@ if (confirm('Would you like to use uppercase letters?'));
     ).innerHTML = password += uppercharacters.charAt(c);
   }
 }
+
 if (confirm('Would you like to use lowercase letters?'));
 {
     function generate() {
         var password = '';
         for (i = 0; i < lengthpass; i++)
+
         var c = Math.floor(Math.random() * lowercharacters.length + 0);
         password += lowercharacters.charAt(c);
       }
@@ -68,14 +70,17 @@ if (confirm('Would you like to use lowercase letters?'));
   }
 
   var symbolpass = '!@#$%^&*()';
+
   if (confirm('Would you like to use symbols?'));
 {
   function generate() {
     var password = '';
+
     for (i = 0; i < lengthpass; i++)
     {
       var c = Math.floor(Math.random() * symbolpass.length + 0);
       password += symbolpass.charAt(c);
+
   }
   console.log(password[i]);
   document.getElementById('pass').innerHTML = password += symbolpass.charAt(
@@ -89,16 +94,19 @@ if (confirm('Would you like to use numbers?'));
 {
   function generate() {
     var password = '';
+
     for (i = 0; i < lengthpass; i++) {
       var c = Math.floor(Math.random() * numberpass.length + 0);
       password += numberpass.charAt(c);
     }
+
     console.log(password[i]);
     document.getElementById('pass').innerHTML = password += numberpass.charAt(
       c
     );
   }
 }
+
 /*
 I KNOW THAT THESE FOUR COMMAND PROMPTS ARE NOT CONNECTING TO THE PASSWORD AND I SPENT FOUR DAYS 
 TRYING TO PIECE THESE TOGETHER IN AROUND 30 DIFFERENT WAYS. SADLY I COULDNT GET ALL FOUR OF THESE TO CREATE A COMBINED PASSWORD
@@ -106,3 +114,4 @@ I AM LOOKING FOWARD TO LEARNING WHAT I DID WRONG HERE. For some reason whatever 
 character only. I also will note that I was not able to fix issue #5 because of a submodule problem but I am also willing to learn 
 how to fix this in the future. Thank you for reading. 
 */
+
