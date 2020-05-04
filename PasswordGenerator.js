@@ -39,6 +39,7 @@ function generate() {
 }
 
 
+
 if (confirm('Would you like to use uppercase letters?'));
 {
   function generate() {
@@ -53,3 +54,7 @@ if (confirm('Would you like to use uppercase letters?'));
     ).innerHTML = password += uppercharacters.charAt(c);
   }
 }
+
+if (confirm('Would you like to use lowercase letters?'));
+{
+
