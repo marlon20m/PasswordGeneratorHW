@@ -6,3 +6,4 @@ function PasswordGenerator(name) {
 }
 
 PasswordGenerator(name);
+
