@@ -37,3 +37,19 @@ function generate() {
   console.log(password);
   document.getElementById('pass').innerHTML = password += characters.charAt(c);
 }
+
+
+if (confirm('Would you like to use uppercase letters?'));
+{
+  function generate() {
+    var password = '';
+    for (i = 0; i < lengthpass; i++) {
+      var c = Math.floor(Math.random() * uppercharacters.length + 0);
+      password += uppercharacters.charAt(c);
+    }
+    console.log(password[i]);
+    document.getElementById(
+      'pass'
+    ).innerHTML = password += uppercharacters.charAt(c);
+  }
+}
